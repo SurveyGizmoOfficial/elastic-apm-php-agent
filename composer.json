@@ -1,16 +1,16 @@
 {
-	"name": "surveygizmo/elastic-apm-php-agent",
-	"description": "A php 5.6 agent for Elastic APM",
+    "name": "surveygizmo/elastic-apm-php-agent",
+    "description": "A php 5.6 agent for Elastic APM",
     "license": "MIT",
     "require" : {
-		"php": "5.6.*",
+        "php": "5.6.*",
         "guzzlehttp/guzzle": "6.*",
         "ralouphie/getallheaders": "3.*",
         "ext-curl" : "*",
         "ext-json": "*"
     },
     "require-dev" : {
-		"phpunit/phpunit": "*"
+	"phpunit/phpunit": "*"
     },
     "suggest": {
         "ext-xdebug": "Required for processing of request headers"
