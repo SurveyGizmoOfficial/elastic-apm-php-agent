@@ -10,7 +10,7 @@
         "ext-json": "*"
     },
     "require-dev" : {
-	"phpunit/phpunit": "*"
+        "phpunit/phpunit": "*"
     },
     "suggest": {
         "ext-xdebug": "Required for processing of request headers"
